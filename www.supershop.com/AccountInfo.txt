@@ -1,0 +1,31 @@
+<!--=*= ADMIN INFO =*=-->
+
+Root Admin
+email	: nirjhor@adnsl.net
+pass	: abc123
+
+Content Manager
+email	: jhondoe@gmail.com
+pass	: abc123
+	
+Technical Operator
+email	: md.aamroni@yahoo.com
+pass	: abc123
+
+
+
+<!--=*= CUSTOMER INFO =*=-->
+email	: kabirkhan@gmail.com
+pass	: abc123
+
+email	: jhondoe@gmail.com
+pass	: abc123
+
+email	: almamunroni@gmail.com
+pass	: abc123
+
+email	: nirjhorsir@gmail.com
+pass	: abc123
+
+email	: jobayertuser@gmail.com
+pass	: abc123

@@ -1,0 +1,11 @@
+{
+  "name": "tagplug",
+  "version": "1.0.2",
+  "description": "This is first npm package for only test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rinto",
+  "license": "ISC"
+}

@@ -1,0 +1,307 @@
+/* Home Carousel Height */
+.home-slide {
+	height: 420px;
+}
+
+/* Unknown */
+.product-image-container .product-image img {
+	height: 350px;
+}
+
+/* Category Pages Image Size */
+.product-image-container .category-image img{
+	height: 202px;
+	width: 202px;
+}
+
+/* Category-List Pages Image Size  */
+.product-image-container .categorylist-image img{
+	height: 226px;
+	width: 226px;
+}
+
+/* Category-Horizontal-List Pages Image Size */
+@media screen and (min-width: 1130) {
+	.product-image-container .categoryhorizontal-image img{
+		height: 277px;
+		width: 278px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.product-image-container .categoryhorizontal-image img{
+		height: 202px;
+		width: 202px;
+	}
+}
+
+/* Category-Horizontal-Flex-Grid Pages Image Size */
+@media screen and (min-width: 1130) {
+	.product-image-container .categoryflexgrid-image img{
+		height: 452.2px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.product-image-container .categoryflexgrid-image img{
+		height: 228.7px;
+		width: 100%;
+	}
+}
+
+/* Product Pages Image Size */
+.product-image-container .products-image img{
+	height: 270px;
+	width: 270px;
+}
+
+/* Product Sidebar Pages Image Size */
+.product-image-container .product-left-image img{
+	height: 195px;
+	width: 195px;
+}
+
+/* ShopCart Pages Image Size */
+.product-image-container .shopcart-image img{
+	height: 178px;
+	width: 178px;
+}
+
+/* CheckOut Pages Image Size */
+.product-image-container .checkouts-image img{
+	height: 70px;
+	width: 80px;
+}
+
+/* CheckOut Pages Image Size */
+.product-image-container .checkout-image img{
+	height: 73px;
+	width: 73px;
+}
+
+/* ViewCart Pages Image Size */
+.product-image-container .viewcart-image img{
+	height: 78px;
+	width: 66px;
+}
+
+/* Invoice CSS */
+.invoice-header 
+{
+	border: 1px solid #ddd;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.invoice-title
+{
+	background: #1fb5ad;
+	color: #fff;
+	display: inline-block;
+}
+
+.invoice-title h1 
+{
+	font-size: 50px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 5px;
+	letter-spacing: 2px;
+}
+
+.logo-print
+{
+	float: left;
+	margin: -50px 0 0 250px;
+}
+
+.invoice-info
+{
+	margin-top: 5px;
+}
+
+.invoice-info, .invoice-title
+{
+	padding: 20px;
+}
+
+.invoice p
+{
+	color: #aeaeb1;
+	margin-bottom: 0;
+}
+
+.invoice-to h2
+{
+	margin: 0;
+	font-size: 24px;
+	color: #73737b;
+	font-weight: 600;
+}
+
+.invoice-block 
+{
+	text-align: right;
+}
+
+.inv-label
+{
+	color: #1fb5ad;
+}
+
+.invoice-btn
+{
+	margin-top:30px;
+}
+
+.payment-method p
+{
+	margin-bottom: 5px;
+}
+
+.table-invoice
+{
+	margin-top: 30px;
+	border-spacing: 5px;
+	border-collapse: separate;
+}
+
+.table-invoice h4
+{
+	margin: 0;
+	font-weight: 400;
+}
+
+.table-invoice>thead>tr>th
+{
+	border-bottom: none;
+}
+
+.table-invoice>tbody>tr>td
+{
+	border-top: none;
+}
+
+.table-invoice thead tr th
+{
+	background: #e8e9f0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	vertical-align: middle;
+}
+
+.table-invoice tbody tr td
+{
+	background: #f5f6f9;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	vertical-align: middle;
+}
+
+.table-invoice thead tr th:first-child,.table-invoice tbody tr td:first-child
+{
+	text-align: center;
+}
+
+ul, .list-unstyled
+{
+	padding-left: 30px;
+}
+
+ul.amounts li
+{
+	background: #f5f6f9;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-weight: 300;
+	font-size: 16px;
+	list-style: none;
+}
+
+ul.amounts li.grand-total
+{
+	background: #1fb5ad;
+	color: #fff;
+	font-weight: bold;
+}
+
+.pull-right:after
+{
+	border-color: rgba(255,255,255,0);
+	border-bottom-color: #ffffff;
+	border-width: 7px;
+	margin-left:- 7px;
+}
+
+.pull-right:before
+{
+	border-color: rgba(238,238,238,0);
+	border-bottom-color: #eeeeee;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
+.footer-bottom {
+	padding-bottom: 1.7rem !important;
+}
+@media screen and (min-width: 992px){
+	.footer-bottom {
+		padding-bottom: 3.1rem !important;
+	}
+}
+
+.cuspop
+{
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: cover !important;
+}
+
+.logo-newsletter
+{
+	height: 56px !important;
+	widht: 140px !important;
+}
+
+.modal-header, .modal-footer
+{
+	border-bottom: none !important;
+	border-top: none !important;
+}
+
+/* === SEARCH DROPDOWN === */
+.list-style {
+	position: absolute !important;
+	margin-left: 5px;
+	margin-top: 50px;
+	z-index: 999999;
+	background-color: white;
+	max-height: 135px;
+	overflow-y: auto !important;
+}
+
+.list-style a {
+	padding: 8px 7px;
+	width: 290px;
+	box-sizing: border-box;
+}
+
+.list-style a:hover {
+	background-color: rgba(220, 53, 69, 0.6);
+	color: #fff !important;
+	cursor: pointer;	
+}
+/* === SEARCH DROPDOWN === */
+
+/* === TOAST MESSAGE === */
+.toast-top-right {
+  top: 62px;
+  right: 12px;
+}
+/* === TOAST MESSAGE === */
