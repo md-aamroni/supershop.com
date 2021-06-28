@@ -1,5 +1,8 @@
 ## SuperShop - Single Vendor Ecommerce Application
 
+
+### Folder Structure
+
 ```
 ├───@DATABASE
 │   └───Blank Database
