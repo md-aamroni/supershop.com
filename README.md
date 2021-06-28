@@ -1,37 +1,9 @@
 ## SuperShop - Single Vendor Ecommerce Application
 
 
-├───@DATABASE
-│   └───Blank Database
-├───admin
-│   ├───app
-│   │   ├───Http
-│   │   │   └───Controllers
-│   │   └───Models
-│   ├───config
-│   ├───images
-│   ├───public
-│   │   ├───css
-│   │   ├───fonts
-│   │   │   ├───css
-│   │   │   ├───custom-ico-fonts
-│   │   │   └───fonts
-│   │   ├───js
-│   │   │   └───datatable
-│   │   │       ├───css
-│   │   │       └───images
-│   │   ├───summernote
-│   │   │   ├───font
-│   │   │   ├───lang
-│   │   │   └───plugin
-│   │   │       ├───databasic
-│   │   │       ├───hello
-│   │   │       └───specialchars
-│   │   └───tagplug
-│   └───resource
-│       └───view
-│           ├───content
-│           └───include
+### FrontEnd Application Folder Structure
+
+```
 ├───app
 │   ├───Http
 │   │   └───Controllers
@@ -42,17 +14,31 @@
 │   │   ├───css
 │   │   ├───fonts
 │   │   ├───images
-│   │   │   ├───brand
-│   │   │   ├───favicon
-│   │   │   └───icons
 │   │   └───js
 │   └───uploads
-│       └───images
-│           ├───admins
-│           ├───banners
-│           ├───products
-│           └───slides
+│       ├───admins
+│       ├───banners
+│       ├───products
+│       └───slides
 └───resource
+    ├───files
     └───view
         ├───content
         └───include
+```
+
+
+### Features:
+
+- Home Page
+- Category
+- Category Lists
+- Product
+- Serach
+- Cart
+- Payments
+- Order
+- Invoice Generate
+- User Registration
+- User Login
+- User Dashboard

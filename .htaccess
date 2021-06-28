@@ -1,5 +1,12 @@
+# RewriteEngine On
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ https://supershop.com/$1 [R,L]
+
+
 RewriteEngine On
-
 RewriteCond %{REQUEST_FILENAME} !-f
-
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+# ErrorDocument 404 /404.php
+ErrorDocument 404 /supershop.com/404.php
