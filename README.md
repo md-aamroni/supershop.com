@@ -1,6 +1,6 @@
 ## SuperShop - Single Vendor Ecommerce Application
 
-
+```
 ├───@DATABASE
 │   └───Blank Database
 ├───admin
@@ -56,3 +56,4 @@
     └───view
         ├───content
         └───include
+```
